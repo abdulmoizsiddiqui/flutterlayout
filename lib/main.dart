@@ -25,7 +25,16 @@ class DashboardScreen extends StatelessWidget {
         foregroundColor: Colors.white,
         backgroundColor: Colors.blue,
       ),
-      body: Container(color: Colors.blue.shade50),
+      body: Text(
+        "Let's add some custom fonts. Perfect",
+        style: TextStyle(
+          color: Colors.red,
+          backgroundColor: Colors.yellow,
+          fontWeight: FontWeight.bold,
+          fontFamily: 'Poppins',
+          fontSize: 55,
+        ),
+      ),
     );
   }
 }
